@@ -20,6 +20,7 @@
 - (void)initView {
     [super initView];
     _person = [NSObject new];
+    // 说好的动态添加属性的呢，这样真的好么
     _person.name = @"添加属性成功";
 }
 
